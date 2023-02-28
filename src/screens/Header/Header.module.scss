@@ -1,0 +1,57 @@
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 46px 200px 0;
+
+  &_topContent {
+    display: flex;
+    margin-top: 115px;
+
+    .title {
+      font-size: 42px;
+      line-height: 60px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+
+    .subtitle {
+      display: flex;
+      align-items: center;
+      column-gap: 64px;
+      margin-top: 58px;
+      //position: relative;
+
+      &_text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000000;
+        margin-bottom: 60px;
+      }
+
+      &_scrollDown {
+        position: relative;
+        top: -40px;
+      }
+    }
+
+    .additionInfo {
+      font-size: 14px;
+      line-height: 28px;
+      margin-top: 106px;
+    }
+
+  }
+
+}
+
+.headerBottom {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}

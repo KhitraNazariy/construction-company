@@ -1,10 +1,10 @@
 html {
     box-sizing: border-box;
-    font-family: "Avenir Next Cyr", sans-serif;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+    font-family: "Avenir Next Cyr", sans-serif;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
